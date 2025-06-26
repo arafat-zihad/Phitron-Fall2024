@@ -9,9 +9,9 @@ int main(){
         cin >> a[i];
     }
 
-    swap(a[0], a[n-1]);
+    // swap(a[0], a[n-1]);
 
-    for(int i = 0; i < n; i++){
+    for(int i = n-1; i >= 0; i--){
         cout << a[i] <<" ";
     }
     return 0;
