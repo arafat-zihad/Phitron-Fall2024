@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    // int x = 10;
     int *p = new int;
-    *p = 100;
+    *p = 5;
     cout << *p << endl;
+    delete p;
     return 0;
 }
