@@ -10,7 +10,7 @@ class Student
     Student(int c, int r, double g)
     {
         cls = c;
-        roll = r;
+        roll = r; 
         gpa = g;
     }
 };
