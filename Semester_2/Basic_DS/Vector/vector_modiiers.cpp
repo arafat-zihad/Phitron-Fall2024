@@ -6,8 +6,10 @@ int main(){
     // for(size_t i = 0; i < v2.size(); i++){
     //     cout << v2[i];
     // }
+    v2.pop_back();
     for(int i : v2){
         cout << i << " ";
     }
+
     return 0;
 }
