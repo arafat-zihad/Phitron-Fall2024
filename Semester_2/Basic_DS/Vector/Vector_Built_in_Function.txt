@@ -25,8 +25,8 @@ MODIFIERS
 v= or v.assign()             → Assign another vector.                                                  [O(N) if sizes are different, O(1) otherwise.]
 v.push_back()                → Add an element to the end.                                              [O(1)]
 v.pop_back()                 → Remove the last element.                                                [O(1)]
-v.insert()                   → Insert elements at a specific position.                                 [O(N+K); where K is the number of elements to be inserted.]
-v.erase()                    → Delete elements from a specific position.                               [O(N+K); where K is the number of elements to be deleted.]
+v.insert(pos, value)         → Insert elements at a specific position.                                 [O(N+K); where K is the number of elements to be inserted.]
+v.erase(pos, pos)                    → Delete elements from a specific position.                               [O(N+K); where K is the number of elements to be deleted.]
 replace(v.begin(),v.end(),value,replace_value) → Replace all the value with replace_value. Not under a vector. [O(N)]
 find(v.begin(),v.end(),V)    → Find the value V. Not under a vector.                                   [O(N)]
 
