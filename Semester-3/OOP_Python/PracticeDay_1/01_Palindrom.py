@@ -1,9 +1,15 @@
-n = int(input())
-l = len(str(n))
-rev = 0
-x = range(0, l)
-for i in x:
-    temp = n % 10
-    rev = rev + temp * 10
+n = input().strip()
 
-print(rev)
+reversed_str = ""
+length = len(n)
+
+for i in range(length - 1, -1, -1):
+    reversed_str = reversed_str + n[i]
+
+print(int(reversed_str))
+
+if n == reversed_str:
+    print("YES")
+else:
+    print("NO")
+
